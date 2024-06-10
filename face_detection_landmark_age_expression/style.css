@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+.homepage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    position: relative;
+}
+.maintext{
+    font-family: "Anton", sans-serif;
+}      
+.primarybtn {
+    background-image: linear-gradient(to right, #338aee 0%, #338aee  51%, #338aee  100%);
+    padding: 15px 45px;
+    text-align: center;
+    color: black;  
+    font-size: 1.2rem;          
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .primarybtn:hover {
+    transform: scale(1.1);
+}
+.primarybtn:active {
+    transform: scale(1); /* Added scale effect */
+    box-shadow: 0 0 10px #ccc; /* Added shadow effect */
+}
+.getstarted{
+    position: absolute;
+    bottom: 60px;
+}
+video {
+    border: 2px solid black;
+}
+
+canvas {
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+
+#expressionBox {
+    padding: 10px 10px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: blue;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
