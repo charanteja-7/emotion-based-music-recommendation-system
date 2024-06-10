@@ -5,6 +5,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     background-image: linear-gradient(to right, #b20ad4 0%, #9733EE  51%, #DA22FF  100%);
 }
@@ -109,13 +110,7 @@ canvas {
 #surprise { background-color: #FFA500; }
 #fearful { background-color: #4B0082; }
 
-/* CSS styles for recommendations container */
-.recommendations-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
+
 
 /* CSS styles for music recommendations */
 .track {
@@ -144,6 +139,7 @@ canvas {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .track {
@@ -152,9 +148,23 @@ canvas {
     align-items: center;
     width: 250px; 
     padding: 10px;
+    font-weight: bold;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #fff;
+    background-image: linear-gradient(
+    45deg,
+    hsl(191, 100%, 86%) 0%,
+    hsl(189, 80%, 84%) 11%,
+    hsl(187, 84%, 83%) 22%,
+    hsl(185deg 87% 82%) 33%,
+    hsl(184deg 90% 82%) 44%,
+    hsl(182deg 92% 81%) 56%,
+    hsl(175deg 95% 81%) 67%,
+    hsl(170deg 96% 80%) 78%,
+    hsl(165deg 98% 80%) 89%,
+    hsl(160deg 98% 76%) 100%
+      );
 }
 
 .song-image {
