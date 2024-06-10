@@ -6,6 +6,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, #b20ad4 0%, #9733EE  51%, #DA22FF  100%);
 }
 .homepage{
     width: 100vw;
@@ -18,6 +19,8 @@ body {
 }
 .maintext{
     font-family: "Anton", sans-serif;
+    font-size: 5rem;
+    text-align: center;
 }      
 .primarybtn {
     background-image: linear-gradient(to right, #338aee 0%, #338aee  51%, #338aee  100%);
@@ -55,14 +58,12 @@ canvas {
 #expressionBox {
     padding: 10px 10px;
     width: 300px;
-    margin-top: 10px;
     font-size: 18px;
-    color: blue;
 }
 
 .sub-container{
     display: flex;
-    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -74,4 +75,104 @@ canvas {
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+
+
+/* deepu */
+/* CSS styles for emotion buttons */
+#emotions{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emotion-button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.emotion-button:hover {
+    background-color: #ddd;
+}
+
+/* Emotion button colors */
+#happy { background-color: #FFD700; }
+#sad { background-color: #4169E1; }
+#angry { background-color: #FF6347; }
+#neutral { background-color: #A9A9A9; }
+#surprise { background-color: #FFA500; }
+#fearful { background-color: #4B0082; }
+
+/* CSS styles for recommendations container */
+.recommendations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* CSS styles for music recommendations */
+.track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Adjust track width as needed */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.song-image {
+    width: 200px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-name {
+    margin-top: 10px;
+}
+
+.recommendations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.song-image {
+    max-width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-name {
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 20px;
+    margin-top: 20px;
 }
