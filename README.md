@@ -38,7 +38,7 @@ This project is a web application that uses facial recognition to analyze user e
 
 2. **Set Up API Keys:**
 
-   - **Face API:** Follow the [Face API documentation]([https://docs.microsoft.com/en-us/azure/cognitive-services/face/](https://justadudewhohacks.github.io/face-api.js/docs/index.html)).
+   - **Face API:** Follow the https://justadudewhohacks.github.io/face-api.js/docs/index.html
    - **Spotify API:** Follow the [Spotify Developer documentation](https://developer.spotify.com/documentation/web-api/) to create an application and obtain your API credentials.
 
 
