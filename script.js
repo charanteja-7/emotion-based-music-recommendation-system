@@ -111,7 +111,7 @@ const emotionGenreMapping = {
 
 async function getRecommendations(emotion) {
     try {
-      const token = 'BQATqhJcWRTY49zEop4fT3scGY2Q6kMoZ3cvtCnFNA5z5q2ouxvTk1A7oQFIpyq2pPODUahRWIXXghdA7cLKmmO02HP_9pbV-KXQC4CzElQ49GdODusyjknQOtjRyr07jyW3iKQNKd3oKzGAAceirOiXzovyvcBnKrKA5ii3mKoDSUQhD6ndX5PK8YtUrj6NqMDbFhOzvAiHIRSfvtMm8nUviYvJ-pZZcysIy9s-RcnEM39hhpy4aPrPTdzIu2yZtCezflHOSJIP2PfRuyb563GK'; 
+      const token = YOUR_SPOTIFY_TOKEN; 
       const response = await fetch(`https://api.spotify.com/v1/search?q=${emotion}&type=track&limit=50`, {
         method: 'GET',
         headers: {
